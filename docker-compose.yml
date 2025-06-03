@@ -6,3 +6,6 @@ services:
       - "3002:3001"
     networks:
       - dev_network
+
+networks:
+  - dev_network
